@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import MenuItem from './MenuItem';
 function Navbar() {
   return (
     <div className='w-36 h-full fixed'>
@@ -8,14 +9,13 @@ function Navbar() {
             className='w-14 hover:p-1 transition-all duration-500 cursor-pointer'
             src='logo.png'
           />
-          <div className='hover:text-blue-400 transition-colors duration-500 cursor-pointer'>
-            Home
-          </div>
-          <div className='hover:text-blue-400 transition-colors duration-500 cursor-pointer'>
-            Project
-          </div>
+          <MenuItem link='/'>Home</MenuItem>
+          <MenuItem link='/project'>Project</MenuItem>
           <div className='hover:text-blue-400 transition-colors duration-500 cursor-pointer'>
             Resume
+          </div>
+          <div className='hover:text-blue-400 transition-colors duration-500 cursor-pointer'>
+            Contact
           </div>
         </div>
         <div className='flex flex-col mb-16 space-y-8'>

@@ -5,17 +5,3 @@
 body {
   background-color: #f2f2f2;
 }
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.animated-fade-in {
-  animation-name: fade-in;
-  animation-duration: 4s;
-}
