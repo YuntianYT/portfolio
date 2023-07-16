@@ -1,4 +1,4 @@
-function DPMC() {
+function Dpmc() {
   return (
     <>
       <div className='flex justify-center py-56 px-36'>
@@ -32,4 +32,4 @@ function DPMC() {
   );
 }
 
-export default DPMC;
+export default Dpmc;
