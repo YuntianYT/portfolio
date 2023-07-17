@@ -6,8 +6,8 @@ import Home from './components/Home';
 import ApplicationTracker from './pages/projects/ApplicationTracker';
 import LeetcodeSolution from './pages/projects/LeetcodeSolution';
 import Contact from './pages/Contact';
-import Dpmc from './pages/projects/Dpmc';
-import Resume from './pages/Resume';
+import Dpmc from './pages/projects/Dpmc.jsx';
+import Resume from './pages/Resume.jsx';
 
 function App() {
   return (
