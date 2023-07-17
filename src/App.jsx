@@ -6,8 +6,8 @@ import Home from './components/Home';
 import ApplicationTracker from './pages/projects/ApplicationTracker';
 import LeetcodeSolution from './pages/projects/LeetcodeSolution';
 import Contact from './pages/Contact';
-import Dpmc from './pages/projects/Dpmc.jsx';
 import Resume from './pages/Resume.jsx';
+import DataPlatform from './pages/projects/DataPlatform';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path='/spotitube' element={<Spotitube />} />
         <Route path='/application' element={<ApplicationTracker />} />
         <Route path='/leetcode' element={<LeetcodeSolution />} />
-        <Route path='/dpmc' element={<Dpmc />} />
+        <Route path='/dpmc' element={<DataPlatform />} />
         <Route path='/resume' element={<Resume />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>

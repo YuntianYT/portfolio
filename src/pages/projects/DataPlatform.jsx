@@ -1,4 +1,4 @@
-function Dpmc() {
+function DataPlatform() {
   return (
     <>
       <div className='flex justify-center py-56 px-36'>
@@ -32,4 +32,4 @@ function Dpmc() {
   );
 }
 
-export default Dpmc;
+export default DataPlatform;
