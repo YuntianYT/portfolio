@@ -8,12 +8,12 @@ function Home() {
           <div className='text-3xl font-bold w-fit text-slate-500 hover:text-slate-600 transition-colors duration-500'>
             TERRY SHI
           </div>
-          <div className='text-[6rem] font-bold text-slate-700 hover:text-blue-400 transition-colors duration-500'>
+          <div className='text-[4rem] md:text-[6rem] font-bold text-slate-700 hover:text-blue-400 transition-colors duration-500'>
             Software Developer
           </div>
         </div>
         <div>
-          <div className='text-3xl font-bold w-fit text-slate-400 hover:text-slate-500 transition-colors duration-500'>
+          <div className='text-xl md:text-3xl font-bold w-fit text-slate-400 hover:text-slate-500 transition-colors duration-500'>
             I build things for the web.
           </div>
         </div>

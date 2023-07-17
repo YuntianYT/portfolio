@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 function Spotitube() {
   return (
     <>
-      <div className='flex justify-center py-56 px-36'>
-        <div className='flex flex-col w-1/2 pr-36'>
-          <div className='text-6xl font-semibold'>Spotitube</div>
+      <div className='flex justify-center py-56 md:px-36'>
+        <div className='flex flex-col p-6 md:w-1/2 md:pr-36'>
+          <div className='text-3xl md:text-6xl font-semibold'>Spotitube</div>
           <div className='my-8 text-2xl'>
             A Spotify looks like YouTube! While there are numerous repositories
             for Spotify clones or YouTube clones, I noticed the absence of a
@@ -20,7 +20,7 @@ function Spotitube() {
             <div>Visit website</div>
           </Link>
         </div>
-        <div className='flex flex-col w-96 space-y-5 text-slate-500 text-2xl'>
+        <div className='hidden md:flex flex-col w-96 space-y-5 text-slate-500 text-2xl'>
           <hr className=' border-slate-400' />
           <div>React.js</div>
           <hr className=' border-slate-400' />
