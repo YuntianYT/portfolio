@@ -5,9 +5,9 @@ import Projects from './pages/Projects';
 import Home from './components/Home';
 import ApplicationTracker from './pages/projects/ApplicationTracker';
 import LeetcodeSolution from './pages/projects/LeetcodeSolution';
-import Resume from './pages/resume';
 import Contact from './pages/Contact';
-import Dpmc from './pages/projects/dpmc';
+import Dpmc from './pages/projects/Dpmc';
+import Resume from './pages/Resume';
 
 function App() {
   return (
