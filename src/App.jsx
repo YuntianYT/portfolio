@@ -5,9 +5,9 @@ import Projects from './pages/Projects';
 import Home from './components/Home';
 import ApplicationTracker from './pages/projects/ApplicationTracker';
 import LeetcodeSolution from './pages/projects/LeetcodeSolution';
-import DPMC from './pages/projects/dpmc';
 import Resume from './pages/resume';
 import Contact from './pages/Contact';
+import Dpmc from './pages/projects/dpmc';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path='/spotitube' element={<Spotitube />} />
         <Route path='/application' element={<ApplicationTracker />} />
         <Route path='/leetcode' element={<LeetcodeSolution />} />
-        <Route path='/dpmc' element={<DPMC />} />
+        <Route path='/dpmc' element={<Dpmc />} />
         <Route path='/resume' element={<Resume />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
