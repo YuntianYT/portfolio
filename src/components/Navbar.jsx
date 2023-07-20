@@ -14,7 +14,7 @@ function Navbar() {
       {/* desktop */}
       <div className='hidden md:inline w-36 h-full fixed z-10'>
         <div className='w-full h-full flex flex-col items-center justify-between'>
-          <div className='flex flex-col mt-16 items-end space-y-16 text-2xl font-semibold text-[#616161] font-mono'>
+          <div className='flex flex-col mt-16 items-end space-y-16 text-2xl font-semibold text-[#616161]'>
             <img
               className='w-14 hover:p-1 transition-all duration-500 cursor-pointer'
               src='logo.png'
